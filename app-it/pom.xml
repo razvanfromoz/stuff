@@ -22,26 +22,26 @@
     </dependencies>
 
 
-    <profiles>
-        <profile>
-            <id>sonar</id>
+    <!--<profiles>-->
+        <!--<profile>-->
+            <!--<id>sonar</id>-->
 
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.jacoco</groupId>
-                        <artifactId>jacoco-maven-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>post-unit-test</id>
-                                <configuration>
-                                    <skip>true</skip>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
+            <!--<build>-->
+                <!--<plugins>-->
+                    <!--<plugin>-->
+                        <!--<groupId>org.jacoco</groupId>-->
+                        <!--<artifactId>jacoco-maven-plugin</artifactId>-->
+                        <!--<executions>-->
+                            <!--<execution>-->
+                                <!--<id>post-unit-test</id>-->
+                                <!--<configuration>-->
+                                    <!--<skip>true</skip>-->
+                                <!--</configuration>-->
+                            <!--</execution>-->
+                        <!--</executions>-->
+                    <!--</plugin>-->
+                <!--</plugins>-->
+            <!--</build>-->
+        <!--</profile>-->
+    <!--</profiles>-->
 </project>
