@@ -5,8 +5,8 @@
 
     <parent>
         <groupId>com.fly-stub</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>fly-stub</artifactId>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>app-it</artifactId>
@@ -15,33 +15,15 @@
 
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>app</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
 
-
-    <!--<profiles>-->
-        <!--<profile>-->
-            <!--<id>sonar</id>-->
-
-            <!--<build>-->
-                <!--<plugins>-->
-                    <!--<plugin>-->
-                        <!--<groupId>org.jacoco</groupId>-->
-                        <!--<artifactId>jacoco-maven-plugin</artifactId>-->
-                        <!--<executions>-->
-                            <!--<execution>-->
-                                <!--<id>post-unit-test</id>-->
-                                <!--<configuration>-->
-                                    <!--<skip>true</skip>-->
-                                <!--</configuration>-->
-                            <!--</execution>-->
-                        <!--</executions>-->
-                    <!--</plugin>-->
-                <!--</plugins>-->
-            <!--</build>-->
-        <!--</profile>-->
-    <!--</profiles>-->
 </project>
